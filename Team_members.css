@@ -1,0 +1,22 @@
+.row img, .row_alone img {
+    border: 5px solid black;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.row_alone {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text_top_bar {
+    font-size: 25px;
+}

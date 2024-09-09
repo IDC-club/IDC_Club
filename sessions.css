@@ -1,0 +1,36 @@
+video {
+    width: inherit;
+    height: inherit;
+    margin: auto;
+    border: 5px solid #C1272D;
+    border-radius: 30px;
+    background-size: cover;
+}
+
+.video {
+    background-color: #C1272D;
+    border: 5px solid #C1272D;
+    border-radius: 30px;
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.explain {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+.explain h1, .explain p {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
