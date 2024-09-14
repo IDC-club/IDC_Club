@@ -1,0 +1,34 @@
+video {
+    width: inherit;
+    height: inherit;
+    margin: auto;
+    border-radius: 30px;
+    background-size: cover;
+}
+
+.video {
+    background-image: linear-gradient(to bottom, #C1272D, #C1272D, black, black);
+    border-radius: 30px;
+    width: 850.6588235px;
+    height: 50vh;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.explain {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+.explain h1, .explain p {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
