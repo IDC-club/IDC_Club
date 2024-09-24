@@ -1,0 +1,331 @@
+.user {
+    transition: all 0.3s ease-in-out;
+}
+
+.row {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 2%;
+    font-size: 20px;
+}
+
+.row_double {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 5%;
+    font-size: 20px;
+}
+
+.best_margin {
+    border-width: 0px;
+    border-style: hidden;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.you {
+    text-align: center;
+    width: 33%;
+    overflow: auto;
+}
+
+.you_alone {
+    text-align: center;
+    width: 33%;
+    overflow: auto;
+}
+
+.row_alone {
+    text-align: center;
+}
+
+.text_top_bar {
+    font-size: 25px;
+}
+
+.member .h1{
+    text-align: center;
+    margin: 0 auto;
+    color: var(--heading_talks);
+}
+
+
+.you .long_talk {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.links {
+    width: 100%;
+    z-index: -20;
+    color: #fff;
+    transform: translate(0, -1000vh);
+}
+
+.user .links:hover {
+    color: #5FBFE1;
+    box-shadow: inset 1000px 0 0 0 #fff;
+}
+
+.user:hover .links {
+    z-index: 20;
+    transform: translate(0%, 150%);
+    transition: all 0.1s ease-out;
+}
+
+.user .MRsRanda {
+    background-image: url(assets/Woman.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px solid var(--divs_border_news);
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.user:hover .MRsRanda {
+    filter: blur(0.5px);
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+.user .Abdallah {
+    background-image: url(assets/Abdalla_3amk_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px solid var(--divs_border_news);
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.user:hover .Abdallah {
+    filter: blur(0.5px);
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+.user .Agam {
+    background-image: url(assets/Agam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px solid var(--divs_border_news);
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.user:hover .Agam {
+    filter: blur(0.5px);
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+.user .Mero {
+    background-image: url(assets/Mero1_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px solid var(--divs_border_news);
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.user:hover .Mero {
+    filter: blur(0.5px);
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+.user .Zoz {
+    background-image: url(assets/ZOZ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px solid var(--divs_border_news);
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.user:hover .Zoz {
+    filter: blur(0.5px);
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+.user .Hamed {
+    background-image: url(assets/Hamed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px solid var(--divs_border_news);
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.user:hover .Hamed {
+    filter: blur(0.5px);
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+.user .Mohamed_Ibrahim {
+    background-image: url(assets/Mohamed_Ibrahim.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px solid var(--divs_border_news);
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.user:hover .Mohamed_Ibrahim {
+    filter: blur(0.5px);
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+.user .Nour {
+    background-image: url(assets/Nour_shehab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px solid var(--divs_border_news);
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.user:hover .Nour {
+    filter: blur(0.5px);
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+.user .Ezaby {
+    background-image: url(assets/3amk_elkbeer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px solid var(--divs_border_news);
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.user:hover .Ezaby {
+    filter: blur(0.5px);
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+.user .aawad {
+    background-image: url(assets/3awd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px solid var(--divs_border_news);
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.user:hover .aawad {
+    filter: blur(0.5px);
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+.user .Moayad {
+    background-image: url(assets/Moayad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px solid var(--divs_border_news);
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.user:hover .Moayad {
+    filter: blur(0.5px);
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+.user .Ihab {
+    background-image: url(assets/mohamed_Ihab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px solid var(--divs_border_news);
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.user:hover .Ihab {
+    filter: blur(0.5px);
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
